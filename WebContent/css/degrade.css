@@ -1,0 +1,27 @@
+div{
+	float:left;
+	margin:10px;
+	width: 300px;
+	height: 300px;
+}
+
+#box{
+	background: url("../img/5.gif");
+	color: rgba(200,175,150,0.8);
+}
+
+#box h1{
+	/* O 0.5 SE DIZ A TRANSPARENCIA */
+	background: rgba(100,125,150,0.5);
+	border-bottom: 2px solid #FFF;
+}
+
+#box2{
+	background: linear-gradient(to left,red,yellow);
+	color: rgba(100,75,50,0.3);
+}
+
+#box3{
+	background: linear-gradient(red,yellow);
+	color: rgba(60,55,40,0.7);
+}
